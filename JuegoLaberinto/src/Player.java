@@ -1,5 +1,10 @@
 public class Player {
     private String name;
+    private int playerId;
+
+    public int getPlayerId() {
+        return playerId;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -11,6 +16,7 @@ public class Player {
 
     public Player() {
         name = "player 1";
+        playerId = 5;
     }
 
 }
